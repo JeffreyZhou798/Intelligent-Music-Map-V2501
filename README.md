@@ -14,6 +14,10 @@ This project implements a **zero-shot learning + local AI inference + pseudo-rei
 - **Privacy-First**: No data leaves the user's browser
 - **Zero-Cost Deployment**: Pure static files, deployable on GitHub Pages or Vercel for free
 
+## live Demo
+
+**Try It Now**：https://intelligent-music-map-v2501.vercel.app/
+
 ## Features
 
 ### Music Analysis (AI-Powered)
@@ -24,9 +28,6 @@ This project implements a **zero-shot learning + local AI inference + pseudo-rei
 - **Confidence Visualization**: Solid/dashed borders based on AI confidence scores
 - **Knowledge Base**: Local music theory rules with semantic search
 
-## live Demo
-
-**Try It Now**：https://intelligent-music-map-v2501.vercel.app/
 
 ### Visual Mapping
 - **AI Recommendations**: 5 visual schemes per structure (shapes + colors + animations)
@@ -287,4 +288,5 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 ## Support
 
 For questions or support, please open an issue on GitHub.
+
 

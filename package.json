@@ -1,0 +1,32 @@
+{
+  "name": "intelligent-music-map",
+  "private": true,
+  "version": "2.5.0",
+  "type": "module",
+  "description": "AI-powered music structure visualization tool using @huggingface/transformers",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:full": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build:full && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "gh-pages": "^6.3.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.2"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "@huggingface/transformers": "^3.5.1",
+    "d3": "^7.9.0",
+    "element-plus": "^2.11.7",
+    "gsap": "^3.13.0",
+    "jszip": "^3.10.1",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.24",
+    "vue-router": "^4.6.3"
+  }
+}
